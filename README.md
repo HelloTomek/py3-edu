@@ -1,2 +1,0 @@
-# IwB
-podstawy programowania komputerow
