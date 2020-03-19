@@ -19,3 +19,7 @@ Jeżeli użytkownik wpisze poprawne hasło “IwB”, to program zmieni kolor, w
 5. wyświetli drzewo katalogów
 6. sprawdzi połączenie z Internetem
 0. program wyłączy komputer
+
+## 3. Instalacja narzędzi
+1. Python 3.8 
+2. IDE / zintegrowane środowisko pogramistyczne 
