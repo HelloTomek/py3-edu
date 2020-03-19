@@ -2,11 +2,12 @@
  
 """
 W pythonie zobaczymy komentarze typu multiline trzykrotny cudzyslow, stosujemy rowniez ''' jako docstring '''.
-Aby wykomentowac skrypt, polecam stosowac skroty klawiszowe, np. w IDLE:
 
+Aby wykomentowac skrypt, polecam stosowac skroty klawiszowe, np. w IDLE:
 - Single line comment. Ctrl + 1.
-- Multi-line comment select the lines to be commented. Ctrl + 4.
+- Multi-line comment, zaznacz kod który chcesz wykomentować. Ctrl + 4.
 - Unblock Multi-line comment. Ctrl + 5.
+
 """
 
 ## 1. Zmienne i ich typy
