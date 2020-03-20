@@ -52,13 +52,12 @@ Nastepnie, deklarujemy zmienne globalne:
 
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
-Wyswietl typ danych dowolnej zmiennej.
-
-**w poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”, czyli przypisane do jednego miejsca w pamięci
-a = b = c = 2**
+**w poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”,** 
+**czyli przypisane do jednego miejsca w pamięci a = b = c = 2**
  
-**w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych
-a, b, c = 1, 2 ”,Witaj w Pythonie”**
+**w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
+
+**a, b, c = 1, 2 ”,Witaj w Pythonie”**
 
 ### Podstawowe operacje arytmetyczne
 Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
@@ -67,4 +66,6 @@ Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować 
 
 Oblicz: sum = i + f
 
-wypisz wartość sum.
+**wypisz wartość sum.*
+
+**Wyswietl typ danych wszystkich zmiennych.**
