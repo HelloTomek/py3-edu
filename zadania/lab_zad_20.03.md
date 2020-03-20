@@ -61,12 +61,12 @@ Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print()
 
 **czyli przypisane do jednego miejsca w pamięci a = b = c = 2.**
 
- 
- 
+
  
 **Również w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
 
 **a, b, c = 1, 2 ”,Witaj w Pythonie”**
+
 ---
 
 ### Podstawowe operacje arytmetyczne
