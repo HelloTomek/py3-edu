@@ -26,7 +26,9 @@ Jeżeli użytkownik wpisze poprawne hasło “IwB”, to program zmieni kolor, w
 3. IDE / zintegrowane środowisko pogramistyczne 
   (podczas instalacji pythona sprawdz czy jest zaznaczony checkbox dla oprogramowania **IDLE** )
 4. Sprawdź czy narzędzia programistyczne zostały poprawnie zainstalowane
+  
   a) uruchom w CMD *$ python --version*
+  
   b) uruchom IDLE
 
 ## 4. Pierwszy python program
