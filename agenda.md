@@ -21,5 +21,25 @@ Jeżeli użytkownik wpisze poprawne hasło “IwB”, to program zmieni kolor, w
 0. program wyłączy komputer
 
 ## 3. Instalacja narzędzi
-1. Python 3.8 
-2. IDE / zintegrowane środowisko pogramistyczne 
+1. Python 2 (https://www.python.org/doc/sunset-python-2/)
+2. Pobierz ostatnią wersję dla Windows (https://www.python.org/downloads/)
+3. IDE / zintegrowane środowisko pogramistyczne 
+  (podczas instalacji pythona sprawdz czy jest zaznaczony checkbox dla oprogramowania **IDLE** )
+4. Sprawdź czy narzędzia programistyczne zostały poprawnie zainstalowane
+  a) uruchom w CMD *$ python --version*
+  b) uruchom IDLE
+
+## 4. Pierwszy python program
+Python pozwala zarządzać komputerem poprzez wydawanie mu poleceń. 
+Pierwszym poleceniem języka Python, które poznasz, jest polecenie wyświetlenia wyniku: print
+
+***output** "Hello Tomek!"*
+
+Następnie:
+1. zadeklaruj zmienną b, nadaj wartość typu boolean
+2. zadeklaruj zmienną s, nadaj wartość typu string
+3. zadeklaruj zmienną i, nadaj wartość typu int
+4. zadeklaruj zmienną f, nadaj wartość typu float.
+
+Zastosuj wielokrotne przypisywanie wartosci (multiple assignment). 
+Wyświetl wsyzstkie wartości korzystając z wcześniej poznanej funkcji **print()**
