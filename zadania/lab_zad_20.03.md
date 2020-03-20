@@ -42,13 +42,13 @@ output "Hello Tomek!"
 
 Nastepnie, deklarujemy zmienne globalne: 
 
-zadeklaruj zmienną n, nadaj pustą wartość / Najbardziej ogólny to none, czyli nic.
-zadeklaruj zmienną b, nadaj wartość typu boolean.
-zadeklaruj zmienną s, nadaj wartość typu string.
-zadeklaruj zmienną i, nadaj wartość typu int.
-zadeklaruj zmienną f, nadaj wartość typu float.
-zadeklaruj zmienną l , nadaj wartość typu lista lub (tupla), czy {słownik}.
-Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
+1. Zadeklaruj zmienną n, nadaj pustą wartość / Najbardziej ogólny to none, czyli nic.
+2. Zadeklaruj zmienną b, nadaj wartość typu boolean.
+3. Zadeklaruj zmienną s, nadaj wartość typu string.
+4. Zadeklaruj zmienną i, nadaj wartość typu int.
+5. Zadeklaruj zmienną f, nadaj wartość typu float.
+6. Zadeklaruj zmienną l , nadaj wartość typu lista lub (tupla), czy {słownik}.
+7. Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
 
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
