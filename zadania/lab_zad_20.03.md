@@ -41,7 +41,7 @@ output "Hello Tomek!"
 
 ## Otwórz odnośnik do maski stosowania komentarzy w Pythonie: 
 
-(https://github.com/HelloTomek/IwB/blob/master/python_raw/komentarze_i_zmienne.py)
+Link: https://github.com/HelloTomek/IwB/blob/master/python_raw/komentarze_i_zmienne.py
 
 Nastepnie, deklarujemy zmienne globalne: 
 
