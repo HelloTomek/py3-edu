@@ -51,8 +51,8 @@ Wyswietl typ danych dowolnej zmiennej.
 # Podstawowe operacje arytmetyczne
 Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
 
-Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ()
+Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ().
 
-oblicz: sum = i + f
+**Oblicz**: sum = i + f
 
-wypisz wartosc sum.
+**wypisz** wartość sum.
