@@ -13,8 +13,11 @@
 # II. Zainstaluj lokalnie środowisko
 Napiszemy pierwszy program wyświetlający napis "Hello Tomek!"
 
-Instalacja narzędzi
-Python 2 (https://www.python.org/doc/sunset-python-2/)
+Dlaczego **nie** Python 2 (https://www.python.org/doc/sunset-python-2/)?
+
+### PRAKTYKA CZYNI MISTRZA
+
+Instalacja narzędzi:
 
 Pobierz ostatnią wersję dla Windows (https://www.python.org/downloads/)
 
