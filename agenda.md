@@ -42,4 +42,5 @@ Następnie:
 4. zadeklaruj zmienną f, nadaj wartość typu float.
 
 Zastosuj wielokrotne przypisywanie wartosci (multiple assignment). 
+
 Wyświetl wsyzstkie wartości korzystając z wcześniej poznanej funkcji **print()**
