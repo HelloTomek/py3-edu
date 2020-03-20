@@ -9,6 +9,7 @@ REM sprawdzi połączenie z Internetem
 REM program wyłączy komputer
 
 @echo off
+@chcp 65001>nul
 echo.
 set /p haslo="Prosze podac haslo : "
 if %haslo%==IwB goto menu
