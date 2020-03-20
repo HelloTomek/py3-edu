@@ -52,11 +52,11 @@ Nastepnie, deklarujemy zmienne globalne:
 
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
-**w poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”** 
+**W poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”** 
 
-**czyli przypisane do jednego miejsca w pamięci a = b = c = 2**
+**czyli przypisane do jednego miejsca w pamięci a = b = c = 2.**
  
-**w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
+**Również w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
 
 **a, b, c = 1, 2 ”,Witaj w Pythonie”**
 
