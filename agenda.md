@@ -27,9 +27,9 @@ Jeżeli użytkownik wpisze poprawne hasło “IwB”, to program zmieni kolor, w
   (podczas instalacji pythona sprawdz czy jest zaznaczony checkbox dla oprogramowania **IDLE** )
 4. Sprawdź czy narzędzia programistyczne zostały poprawnie zainstalowane
   
-  a) uruchom w CMD *$ python --version*
+     a) uruchom w CMD *$ python --version*
   
-  b) uruchom IDLE
+     b) uruchom IDLE
 
 ## 4. Pierwszy python program
 Python pozwala zarządzać komputerem poprzez wydawanie mu poleceń. 
