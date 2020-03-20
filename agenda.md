@@ -36,11 +36,18 @@ Pierwszym poleceniem języka Python, które poznasz, jest polecenie wyświetleni
 ***output** "Hello Tomek!"*
 
 Następnie:
-1. zadeklaruj zmienną b, nadaj wartość typu boolean
-2. zadeklaruj zmienną s, nadaj wartość typu string
-3. zadeklaruj zmienną i, nadaj wartość typu int
+0. zadeklaruj zmienną n, nadaj pustą wartość / Najbardziej ogólny to none, czyli nic.
+1. zadeklaruj zmienną b, nadaj wartość typu boolean.
+2. zadeklaruj zmienną s, nadaj wartość typu string.
+3. zadeklaruj zmienną i, nadaj wartość typu int.
 4. zadeklaruj zmienną f, nadaj wartość typu float.
+5. zadeklaruj zmienną l , nadaj wartość typu lista lub (tupla), czy {słownik}.
 
-Zastosuj wielokrotne przypisywanie wartosci (multiple assignment). 
+Zastosuj wielokrotne przypisywanie wartości (multiple assignment). 
 
-Wyświetl wsyzstkie wartości korzystając z wcześniej poznanej funkcji **print()**
+Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji **print()**.
+
+Wyswietl typ danych dowolnej zmiennej.
+# Podstawowe operacje arytmetyczne
+Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
+sum = i + f
