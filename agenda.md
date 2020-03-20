@@ -50,4 +50,9 @@ Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji **print
 Wyswietl typ danych dowolnej zmiennej.
 # Podstawowe operacje arytmetyczne
 Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
-sum = i + f
+
+Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ()
+
+oblicz: sum = i + f
+
+wypisz wartosc sum.
