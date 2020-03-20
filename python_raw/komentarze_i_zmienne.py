@@ -32,5 +32,5 @@ https://www.python.org/dev/peps/pep-0257/
 
 ## 1. a) Ciągi znaków - https://github.com/HelloTomek/IwB/blob/master/python_raw/strings.py
 ## 1. b) Typy liczbowe - https://github.com/HelloTomek/IwB/blob/master/python_raw/numbers.py
-## 1. c) Listy -  https://github.com/HelloTomek/IwB/blob/master/python_raw/lists.py
+## 1. c) Listy / Tablice -  https://github.com/HelloTomek/IwB/blob/master/python_raw/lists.py
 ## 1. d) Tuples i Sets - https://github.com/HelloTomek/IwB/blob/master/python_raw/tuples_sets.py
