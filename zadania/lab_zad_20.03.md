@@ -52,7 +52,8 @@ Nastepnie, deklarujemy zmienne globalne:
 
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
-**w poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”,** 
+**w poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”** 
+
 **czyli przypisane do jednego miejsca w pamięci a = b = c = 2**
  
 **w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
@@ -66,6 +67,6 @@ Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować 
 
 Oblicz: sum = i + f
 
-**wypisz wartość sum.*
+**wypisz wartość sum.**
 
 **Wyswietl typ danych wszystkich zmiennych.**
