@@ -111,16 +111,15 @@ print(hw.isnumeric())         # False
 ## Znaki specjalne notacja backslesh'owa oraz hex, wyjasnienie: 
 # \a	  0x07	Alert
 # \b	  0x08	Backspace
-# \cx	 	      Control-x
-# \C-x	      Control-x
+# \cx	 	Control-x
+# \C-x	Control-x
 # \e	  0x1b	Escape
 # \f	  0x0c	Formfeed
-# \M-\C-x	 	  Meta-Control-x
+# \M-\C-x	Meta-Control-x
 # \n	  0x0a	Nowa linia
-# \nnn	      Osemkowa Notacja, gdzie n is in the range 0.7
+# \nnn	Osemkowa Notacja, gdzie n is in the range 0.7
 # \r	  0x0d	return
 # \s	  0x20	Spacja
 # \t	  0x09	Tab
 # \v	  0x0b	Vertical tab
-# \x	 	      Character x
-# \xnn	      Hexadecimal notation, where n is in the range 0.9, a.f, or A.F
+# \x	 	Character x
