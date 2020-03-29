@@ -115,9 +115,9 @@ print(hw.isnumeric())         # False
 # \C-x	Control-x
 # \e	  0x1b	Escape
 # \f	  0x0c	Formfeed
-# \M-\C-x	Meta-Control-x
+# \M-\C-x	  Meta-Control-x
 # \n	  0x0a	Nowa linia
-# \nnn	Osemkowa Notacja, gdzie n is in the range 0.7
+# \nnn	 Osemkowa Notacja, gdzie n is in the range 0.7
 # \r	  0x0d	return
 # \s	  0x20	Spacja
 # \t	  0x09	Tab
