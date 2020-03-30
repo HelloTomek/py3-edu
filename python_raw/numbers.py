@@ -57,11 +57,20 @@ print(type(c_mix))
 print(type(f),type(l),type(o))
 print(sum, type(sum))
 
-# liczby rzeczywiste zapisujemy rowniez w postaci notacji naukowej (mantysa”E”+–wykładnik):
+# liczby rzeczywiste zapisujemy rowniez w postaci notacji naukowej (mantysa”E”+–wykładnik)
 print(1e+6)        # Output: 1000000.0
 
-# Aby odizolować z wyniku dzielenia część ułamkową, użyjemy podwójnego znaku dzielenia:
+# Aby odizolować z wyniku dzielenia część ułamkową, użyjemy podwójnego znaku dzielenia
 print(3.0//2.0)    # Output: 1.0
+
+# Dopuszczalna notacja dla "nie jest liczbą" - Not a number
+print(float("nan"))
+#print(float("NaN"))
+
+# Dopuszczalna notacja dla nieskonczoności - inf/infinity
+print(float("inf"))
+#print(float("InF"))
+#print(float("InFiNiTy"))
 
 ## Liczby zespolone
 # w Pythonie zapisywane jako suma części rzeczywistej i części urojonej. 
