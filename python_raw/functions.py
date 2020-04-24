@@ -26,7 +26,7 @@ def empty_function():    # podstawowy zapis, tzw. baza
     # pass jest specjalną instrukcją w Pythonie, która nie robi po prostu nic (dummy statement).
     pass   # Puste funkcje - placeholdery, definiujemy w początkowym procesie konstruowania szkieletu programu.
   
-## Tworzymy funkcje wyznaczajaca rok przestepny 
+## Tworzymy funkcję wyznaczającą rok przestepny 
 # we wnetrzu każdej niepustej funkcji moze znajdowac sie dowolna ilość poleceń
 
 def leap_yr():
@@ -43,10 +43,11 @@ def leap_yr():
             if keyin.lower() in ['n','nie']: break 
             else: continue
 
-# teraz gdy potrfimy juz stworzyc funkcje nalezy je odpowiednio wywolac, zatem wystartujemy program, 
-# wzwoływując najpierw nasza pusta funkcję, jak sie domyslamy nie otryzmamy zadnej info. 
-
+# Teraz gdy potrfimy juz stworzyć funkcje należy je odpowiednio wywołac, zatem wystartujemy program, 
+# wywoływując najpierw nasza pusta funkcję, jak sie domyslamy nie otryzmamy żadnego komunikatu. 
 empty_function()
+
+# Wywoływujemy funkcję wyznaczającą rok przestepny
 leap_yr()
 
 # Funkcje to sekcje kodu, które są odizolowane od reszty programu i wykonywane tylko po ich wywołaniu. 
@@ -92,18 +93,21 @@ def function_with_kwargs(**kwargs):
 
 function_with_kwargs(nick=welcome(), pesel='88071901122')   # nick : brak return -> none
 
-function_with_kwargs(nick=user1['nick'], pesel=user1.get('pesel'[:])) 
-function_with_kwargs(nick=user2['nick'], pesel=user2.get('pesel'[:])) 
-function_with_kwargs(nick=user3['nick'], pesel=user3.get('pesel'[:])) 
+function_with_kwargs(nick=user1['nick'], pesel=user1.get('pesel')) 
+function_with_kwargs(nick=user2['nick'], pesel=user2.get('pesel')) 
+function_with_kwargs(nick=user3['nick'], pesel=user3.get('pesel')) 
 
 
-## dla zobrazowania przekaywania danzch referencjnych, tworzymy pustą listę, 
+## Dla zobrazowania przekazwania danych referencjnych, tworzymy pustą listę, 
 # jest to drugi sposób przekzywania danych w Pythonie
 # - Przekazywanie danych przez referencję
+
 l1=[]
 def by_reference():
     """Przekazywanie danych przez referencję"""
     l1.append(user1.get('nick'))
+    l1.append(user2.get('nick'))
+    l1.append(user3.get('nick'))
 
 print(f'Przed przekazaniem danych przez referencję l1 wyglądało tak : {l1}')
 by_reference()
@@ -129,28 +133,28 @@ def grade_conv(grade) -> (str):
     else:
         return "ndst"
 
-# wywolujemy trzykrotnie tę samą funkcję z róznymi argumentami, wartosci "metkujemy" 
+# Wywolujemy trzykrotnie tę samą funkcję z róznymi argumentami, wartości "metkujemy" 
 ewa = grade_conv(80)
 wojtek = grade_conv(91)
 tomek = grade_conv(51)
 
 print('ocena ewa:', ewa, '\nocena wojtek:', wojtek, '\nocena tomek:', tomek )
 
-## Tworzymy przyklad na funkcje z rekurencją 
+## Tworzymy przykład dla funkcji z rekurencją 
 # Funkcje rekurencyjne to funkcje, które wywołują same siebie bezpośrednio lub za pośrednictwem innych funkcji.
 
 def iter_factorial(n):
-    """Obliczanie silni iteracyjnie, pierwszy sposob"""
-    tmp=1 #zmienna pomocnicza
-    if n in (0,1):  #gdy n = 0 lub 1 zwroc 1
+    """Obliczanie silni iteracyjnie, pierwszy sposób"""
+    tmp=1 # zmienna pomocnicza
+    if n in (0,1):  # dla n = 0 lub 1 zwróć 1
         return 1
     else:
-        for i in range(2,n+1):  #gdy n>1 mnoz przez kolejne liczby od 2 do n
+        for i in range(2, n+1):  # n>1 mnożymy przez kolejne liczby od 2 do n
             tmp = tmp*i
     return tmp
 
 def rec_factorial(n):
-    """Obliczanie silni rekurencyjnie, drugi sposob"""
+    """Obliczanie silni rekurencyjnie, drugi sposób"""
     if n < 2:
         return 1
     return n * rec_factorial(n - 1)
@@ -193,4 +197,3 @@ update_pi(3.14159265)
 
 # Pole koła przy pi (dziesięć miejsc po przecinku)
 area_of_circle(500)
-
