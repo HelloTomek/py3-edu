@@ -75,7 +75,7 @@ import vars # , b
 s_root_9 = vars.foo(9,2)
 print(s_root_9)
 
-# 2.
+
 # Jeśli chcemy użyć pojedynczych funkcji z danej biblioteki, 
 # to najrozsądniej jest pobrać tylko tą funkcje z ktorej chcemy skorzystac, 
 # nie całą zawartość biblioteki. Do tego celu używamy instrukcji: 
