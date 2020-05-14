@@ -20,7 +20,7 @@ print(filename)
 print(__name__)     
 
 # 1) Output: '__main__', jezeli dany modul zostanie bezposrednio wywolany 
-# 2) Output: 'mod', jezeli modul zostanie posrednio wywolany 
+# 2) Output: 'module', jezeli modul zostanie posrednio wywolany 
                   
 # Moduły - zawierają definicje i instrukcje w języku Python. 
 
@@ -30,10 +30,10 @@ print(__name__)
 # Użyj ulubionego edytora tekstu. 
 # Utwórz plik o nazwie imo.py w bieżącym katalogu. 
 # W imo.py wpisz w pierwszej linii (nie tym razem nie bedzie to shebang line)
-# Wyrazenie import i nazwe tego tu modulu, u mnie bedzie to: import mod 
+# Wyrazenie import i nazwe tego tu modulu, u mnie bedzie to: import module 
 # Napisz ponizej polecenie ktore wypisze __name__.
 
-# Przejdz do docelowego modulu (u mnie mod) i wpisz ponizej 
+# Przejdz do docelowego modulu (u mnie module) i wpisz ponizej 
 # import imo
 
 # Teraz Uruchom posrednio i bezposrednio oba moduly. 
@@ -49,19 +49,22 @@ print(filename + " was executed via import" if test_if_main != True else filenam
 # 1) Własne moduły
 # 2) Wbudowane biblioteki - W dokumentacji lista dostępnych bibliotek
 #   -> https://docs.python.org/3/library/
-# 3) System zarządzania pakietami
+# 3) System zarządzania pakietami.
+
 # ----
+
 # PEP 8
 #  - Standard library imports (standardowa bibliotkeka)
 #  - Third party imports (moduly zainstalowane gdzies w swojej PYTHONPATH)
 #  - Local application imports (wlasne moduly)
 
 
-#  W Pythonie mamy dwa sposoby importowania modułów. 
-# - Bezwzględny import
-# - Względny import
+# W Pythonie wyróżniamy dwa sposoby importowania modułów 
+# > Bezwzględny import oraz względny import (PEP 328).
 
-# 1.
+# Możemy w różny sposób odwołzwać się do modulów 
+# > całe moduły, lub tylko do poszczególnych funkcji. 
+
 # Moduły importujemy do swojego programu za pomocą komendy import.
 # Najprostszym rodzajem importu, jest import całej biblioteki / modułu. 
 # Do tego celu używamy instrukcji o zapisie: import nazwa_biblioteki.
