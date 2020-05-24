@@ -197,7 +197,7 @@ print('\n', "NiedostepneZmienne".center(35, '-'),'\n')
 
 ## Hermetyzacja (enkapsulacja danych) 
 # Definiujemy dostępnosc pewnych danych składowych lub metod obiektów danej klasy. 
-# Wskazane jest umownie ukrycie pól poprzez dodanie _ z przodu ich nazwy. 
+# Wskazane jest umowne ukrycie pól poprzez dodanie _ z przodu ich nazwy. 
 # Nazwa zaczynająca się od  __ (dwóch znaków jest niedostępna), natomiast jest widoczna 
 # dla metod wewnętrznych danej klasy lub funkcji zaprzyjaźnionych.
 
@@ -269,7 +269,7 @@ car = Samochod('Volvo','czarny')
 roof = Podsufitka('Podsufitka pikowana','szklany')
 interior = Tapicerka('skóra','bialy')
 
-# obiekty klas Tapicerka i Spodnie należą jednocześnie do klasy Samochod, 
+# obiekty klas Tapicerka i Podsufitka należą jednocześnie do klasy Samochod, 
 # dlatego konstruktora i metody __str__ można używać dla każdego z nich
 print(car, interior, roof, sep='\n')
 
