@@ -6,8 +6,8 @@
 # by zoptymalizować i poprawić wydajność programu nalezy sprawdzic czy program nie posiada bugow (debugging)
 # nalezy dbac o zasoby, warto wykorzystac algorytmy, ktore optymalizuja zlozony proces.
 # ja w tym celu uzyje podstawowej biblioteki time i bede mierzyl predkosc wykonywania operacji. 
-# zmiercie na poprzedniej wersji
-# nastepnie opisujemy  program, zabieramy sie za komentarze, komentarze powinny byc zunikikowane stylem
+# zmierzcie wydajnosc programu na poprzedniej wersji.
+# nastepnie opisujemy  program, zabieramy sie za komentarze, komentarze powinny byc zunfikikowane stylem
 
 # Postaram sie Wam pokazac wyrywkowo, przypisac poczatkowe komentraze,
 # tlumaczac metody klasy, bede pracowal na poprzednim (niezoptymlaizowanym pliku).
