@@ -19,10 +19,10 @@ Nie jest to optymalny sposób. Poniżej cytat Guido van Rossum, twórca Pythona:
 >> Python does not support multiline comments like C/C++ or Java. 
 >> However there is nothing to stop you to use multi-line docstrings as multiline comments."
 
-Natomiast aby wykomentować skrypt, polecam stosować skróty klawiszowe, np. w IDLE:
-- Single line comment. Ctrl + 1.
-- Multi-line comment, zaznacz kod który chcesz wykomentować. Ctrl + 4.
-- Unblock Multi-line comment. Ctrl + 5.
+Natomiast aby napisać komentarz w Pythonie pot. "wykomentować skrypt", polecam stosować skróty klawiszowe. 
+Przykładowo w IDLE:
+- Multi-line comment, zaznacz kod który chcesz skomentować i wciśnij pryzciski Alt+4.
+- By odblokować istniejący komentarz, zaznacz kod, i wciśnij pryzciski Alt+3.
 
 """
 
@@ -41,8 +41,8 @@ https://www.python.org/dev/peps/pep-0257/
 
 # Zmienne w Pythonie stosuje się do przechowywania wartości dowolnego typu. Utworzenie zmiennej wiąże się z nadaniem jej wartości bazowej (initial value).
 
-## ZMIENNE ZASADY:
-#  - W nazwach zmiennych rozróżniana jest wielkość liter (nazwa i NAZWA to różne zmienne).
+## ZMIENNE - ZASADY:
+#  - W nazwach zmiennych rozróżniana jest wielkość liter (np. zmienna: nazwa i NAZWA, to dwie różne zmienne).
 #  - Muszą one zaczynać się od litery lub znaku podkreślenia.
 #  - Nazawa zmiennej może mieć liczby, ale nie może zaczynać się od cyfry.
 #  - Zmienne nie mogą nosić takiej samej nazwy jak słowa kluczowe w Pythonie.
