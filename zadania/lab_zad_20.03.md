@@ -82,16 +82,22 @@ Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
 Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ().
 
 Oblicz: suma = i + f
+
 Oblicz: odejmowanie = i - f
+
 Oblicz: div = suma / odejmowanie
+
 Oblicz: modulo = suma % div
 
+
 Oblicz binarnie: binary = 11011 * 101
+
 **Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym **
 
 **Wyświetl rownież wartości: suma, div i modulo .**
 
 suma_blad = 1 + 2,3;
+
 print(suma_blad) # dlaczego? 
 
 
