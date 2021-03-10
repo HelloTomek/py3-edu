@@ -1,12 +1,14 @@
-# Ciągi znaków w pythonie są otoczone pojedynczymi lub podwójnymi cudzysłowami. 
+# Ciągi znaków w Pythonie otoczone są pojedynczymi lub podwójnymi cudzysłowami. 
 # String jest to typ sekwencyjny - w jednej zmiennej możemy przechować wiele wartości.
 # Dane typu String w Pythonie są niemutowalne (niezmienne).
-# Spójrzmy zatem blizej na formatowanie ciągów i niektóre metody stosowane na danych typu String. 
+# Spójrzmy zatem bliżej na formatowanie ciągów i niektóre metody stosowane na danych typu String. 
 # Notacja: (''), (""), (''' '''), (""" """").
                                            
 hello = 'hello'    
 world = "world"              
-hw="""Hello World"""
+hw = """
+Hello World
+"""
 
 print(world)       
 
@@ -39,13 +41,13 @@ print(world)
 ## Lista wszystkich metod w dokumentacji
 # https://docs.python.org/3.8/library/stdtypes.html#string-methods
 
-# Python zapewnia zwięzłą składnię dla danych typu String 
+# Python zapewnia zwięzłą składnię dla danych typu String. 
 
-# np. do tworzenia podlisty ze str (sublist), 
-# aby uzyskać dostęp do podzbiorow ciagow znakow, mozemy skorzystac z metody znanej jako 
-# Python String Slicing, wg. zasady: s[:i] + s[i:] == s, dla dla kazdego index'u i 
+# Przykładowo do tworzenia podlisty z napisu (sublist), 
+# aby uzyskać dostęp do podzbiorów ciagów znakow, możemy skorzystać z metody znanej jako 
+# Python string slicing, wg. zasady: s[:i] + s[i:] == s, dla dla kazdego index'u i 
 
-# String slicing - ciecie napisow 
+# String slicing - ciecie napisow.
 
 print(hello_world[4:-4])
 
