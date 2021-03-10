@@ -77,7 +77,7 @@ Usuń zmeinną s.
 
 **Natomiast w przykładzie poniżej, wiele wartości przypisanych jest do wielu zmiennych**
 
-*a, b, c = 1, 2 ”,Witaj w Pythonie”*
+*a, b, c = 1, 2, ”Witaj w Pythonie”*
 
 ---
 
@@ -86,26 +86,26 @@ Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
 
 Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ().
 
-Oblicz: suma = i + f
+**Oblicz:** suma = i + f
 
-Oblicz: odejmowanie = i - f
+**Oblicz:** odejmowanie = i - f
 
-Oblicz: div = suma / odejmowanie
+**Oblicz:** div = suma / odejmowanie
 
-Oblicz: modulo = suma % div
+**Oblicz:** modulo = suma % div
 
+**Oblicz średnią** z dowolnych dwóch zmiennych (wartości liczbowe).
 
 **Oblicz binarnie**: binary = 11011 * 101 
 
-**Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym**
+Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym
 
-**Wyświetl rownież wartości: suma, div i modulo.**
+**Wyświetl również wartości: dla sredniej, sumy, div i modulo.**
 
-# zastanow sie
+# Zastanwó się:
 
-suma_blad = 1 + 2,3;
+- Pojedynczym poleceniem Pythona i bez użycia nawiasów, przemnóż zmienną *suma* przez *suma+2*
 
-print(suma_blad) # dlaczego otrzymaliśmy taki output? 
+- suma_blad = 1 + 2,3; print(suma_blad) # dlaczego otrzymaliśmy taki output? 
 
-
-**Wyświetl typ danych wszystkich dotąd stosowanych zmiennych.**
+**- Przenanlizuj oraz wyświetl typ danych wszystkich dotąd stosowanych zmiennych.**
