@@ -91,7 +91,7 @@ Oblicz binarnie: binary = 11011 * 101
 
 **Wyświetl rownież wartości: suma, div i modulo .**
 
-suma_blad = 1 + 2,3
+suma_blad = 1 + 2,3;
 print(suma_blad) # dlaczego? 
 
 
