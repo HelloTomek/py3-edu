@@ -41,7 +41,7 @@ Pierwszym poleceniem języka Python, które poznasz, jest polecenie wyświetleni
 Wpisz polecenie w jezyku Python tak, aby wyswietlił się spersonalizowany komunikat powitalny. 
 
 
-# III. Zmienne python
+# III. Zmienne w Pythonie
 
 1. Zmienne zdefiniowane na zewnątrz funkcji są *zmiennymi globalnymi*, to oznacza, że mogą być używane zarówno wewnątrz jak i na zewnątrz funkcji. 
 2. Natomiast zmienne zdefiniowane wewnątrz funkcji są *zmiennymi lokalnymi* do użycia tylko wewnątrz funkcji (zmienne lokalne omowione zostaną w dalszej części kursu).
@@ -50,7 +50,7 @@ Wpisz polecenie w jezyku Python tak, aby wyswietlił się spersonalizowany komun
 
 Link: https://github.com/HelloTomek/IwB/blob/master/python_raw/komentarze_i_zmienne.py
 
-Nastepnie, deklarujemy zmienne globalne: 
+Następnie, deklarujemy zmienne globalne: 
 
 1. Zadeklaruj zmienną n, nadaj pustą wartość / Najbardziej ogólny to none, czyli nic.
 2. Zadeklaruj zmienną b, nadaj dowolną wartość typu boolean.
@@ -95,9 +95,9 @@ Oblicz: div = suma / odejmowanie
 Oblicz: modulo = suma % div
 
 
-**Oblicz binarnie**: binary = 11011 * 101
+**Oblicz binarnie**: binary = 11011 * 101 
 
-**Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym **
+**Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym**
 
 **Wyświetl rownież wartości: suma, div i modulo.**
 
