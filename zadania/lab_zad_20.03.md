@@ -27,10 +27,14 @@ Pobierz ostatnią dostępną wersję dla Windows (https://www.python.org/downloa
 IDE jest to zintegrowane środowisko pogramistyczne, podczas instalacji Pythona sprawdź proszę czy domyślnie zostało zaznaczone pole wyboru dla oprogramowania IDLE (jeśli nie aktuwuj tą opcję).
 
 Teraz sprawdzimy czy narzędzia programistyczne zostały poprawnie zainstalowane, mamy na to wiele możliwości, przykładowo:
+
 a) uruchom w CMD $ python --version
 
 następnie
+
 b) uruchom program IDLE
+
+---
 
 Napiszecie teraz pierwszy program w Pythonie. 
 Utwórz w tym celu nowy plik, nazwij go: witaj.py.
@@ -57,9 +61,12 @@ Nastepnie, deklarujemy zmienne globalne:
 3. Zadeklaruj zmienną s, nadaj dowolną wartość typu string.
 4. Zadeklaruj zmienną i, nadaj dowolną wartość typu int.
 5. Zadeklaruj zmienną f, nadaj dowolną wartość typu float.
-6. Zadeklaruj zmienne l oraz m, n :
-  a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
-  b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
+6. Zadeklaruj zmienne l oraz m, n:
+
+  6 a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
+  
+  6 b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
+ 
  
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
@@ -72,7 +79,8 @@ Usuń zmeinną s.
 
 
 **Natomiast w przykładzie poniżej, wiele wartości przypisanych jest do wielu zmiennych**
-*a, b, c = 1, 2 ”,Witaj w Pythonie”*
+
+*a, b, c = 1, 2, ”Witaj w Pythonie”*
 
 ---
 
@@ -81,15 +89,27 @@ Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
 
 Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ().
 
-Oblicz: suma = i + f
-Oblicz: odejmowanie = i - f
-Oblicz: div = suma / odejmowanie
-Oblicz: modulo = suma % div
+**Oblicz:** suma = i + f
 
-Oblicz binarnie: binary = 11011 * 101
-**Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym **
+**Oblicz:** odejmowanie = i - f
 
-**Wyświetl rownież wartości: suma, div i modulo .**
+**Oblicz:** div = suma / odejmowanie
+
+**Oblicz:** modulo = suma % div
+
+**Oblicz średnią** z dowolnych dwóch zmiennych (wartości liczbowe).
+
+**Oblicz binarnie**: binary = 11011 * 101 
+
+Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym
+
+**Wyświetl również wartości: dla sredniej, sumy, div i modulo.**
+
+# Zastanów się:
+
+a = 1
+
+b = 2,3
 
 suma_blad = 1 + 2,3
 print(suma_blad) # dlaczego? 
