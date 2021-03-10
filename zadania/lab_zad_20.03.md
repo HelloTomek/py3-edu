@@ -57,9 +57,12 @@ Nastepnie, deklarujemy zmienne globalne:
 3. Zadeklaruj zmienną s, nadaj dowolną wartość typu string.
 4. Zadeklaruj zmienną i, nadaj dowolną wartość typu int.
 5. Zadeklaruj zmienną f, nadaj dowolną wartość typu float.
-6. Zadeklaruj zmienne l oraz m, n :
+6. Zadeklaruj zmienne l oraz m, n:
+
   a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
+  
   b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
+ 
  
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
 
