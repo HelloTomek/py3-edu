@@ -1,5 +1,5 @@
 # IwB
-Python 3.8 kurs - Programowanie komputerów 
+Python kurs - Programowanie komputerów 
 
 Zajęcia, skrypt i zadania - Laboratoria lato 2020
 
