@@ -29,7 +29,7 @@ Natomiast aby wykomentować skrypt, polecam stosować skróty klawiszowe, np. w 
 # Drugi przyklad cd -->
 
 ''' 
-Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - uzywajac pojedynczego cudzysłowu, 
+Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - używając "pojedynczego cudzysłowu", 
 
 również może być on używany jako docstring, więcej o docstring:
 https://www.python.org/dev/peps/pep-0257/
@@ -57,12 +57,13 @@ print(keyword.kwlist) # Słowa kluczowe Pythona w formie listy, output:
 ## Utarte normy
 
 # W celu poprawienia czytelności, zrozumiałości kodu programu - nadawanie nazw definiowane jest zgodnie z PEP czyli Python Enhancement Proposal, 
-# oficjalnym dokumentem informacyjnym dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
+# oficjalny dokument informacyjny dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
 
 ZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Źle nazwanną zmeinną jest np. zmienna ZacyNAćZwielkich_liter.
 nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również poprawnie.
 
-ZacyNAćZwielkich_liter; nazwazmienna # Wykonujemy dwa polecenia Pythona w jednym wierszu.
+NieZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Zła praktyka na nazywanie zmiennej, źle jest np. zmienna ZacyNAćZwielkich_liter.
+nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również dobrze wg. ustalonych norm.
 
 ## 1. a) Ciągi znaków - https://github.com/HelloTomek/IwB/blob/master/python_raw/strings.py
 ## 1. b) Typy liczbowe - https://github.com/HelloTomek/IwB/blob/master/python_raw/numbers.py
