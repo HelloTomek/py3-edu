@@ -11,7 +11,7 @@
 9. Python w grach i integracja
 
 
-# II. Zainstaluj lokalnie środowisko
+# II. Zainstaluj środowisko
 
 Dlaczego **nie** będziemy pracować na Pythonie 2 (zobacz sam, URL: https://www.python.org/doc/sunset-python-2/).
 Napiszemy pierwszy program wyświetlający napis "Witaj Pythonisto!" 
