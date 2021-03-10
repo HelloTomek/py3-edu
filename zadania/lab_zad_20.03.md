@@ -10,62 +10,69 @@
 8. Automatyzacja
 9. Python w grach i integracja
 
-# II. Zainstaluj lokalnie środowisko
-Napiszemy pierwszy program wyświetlający napis "Hello Tomek!"
 
-Dlaczego **nie** Python 2 (https://www.python.org/doc/sunset-python-2/)?
+# II. Zainstaluj lokalnie środowisko
+
+Dlaczego **nie** będziemy pracować na Pythonie 2 (zobacz sam, URL: https://www.python.org/doc/sunset-python-2/).
+Napiszemy pierwszy program wyświetlający napis "Witaj Pythonisto!" 
+*Już w tym miejscu możemy zauważyć różnicę między Python 2, a Python 3 - pow. polecenie wygląda inaczej w odniesieniu do werji 2 jak i 3.*
+
 
 ### PRAKTYKA CZYNI MISTRZA
 
 Instalacja narzędzi:
 
-Pobierz ostatnią wersję dla Windows (https://www.python.org/downloads/)
+Pobierz ostatnią dostępną wersję dla Windows (https://www.python.org/downloads/)
 
-IDE / zintegrowane środowisko pogramistyczne (podczas instalacji pythona sprawdz czy jest zaznaczony checkbox dla oprogramowania IDLE )
+IDE jest to zintegrowane środowisko pogramistyczne, podczas instalacji Pythona sprawdź proszę czy domyślnie zostało zaznaczone pole wyboru dla oprogramowania IDLE (jeśli nie aktuwuj tą opcję).
 
-Sprawdź czy narzędzia programistyczne zostały poprawnie zainstalowane
-
+Teraz sprawdzimy czy narzędzia programistyczne zostały poprawnie zainstalowane, mamy na to wiele możliwości, przykładowo:
 a) uruchom w CMD $ python --version
 
-b) uruchom IDLE
+następnie
+b) uruchom program IDLE
 
-Pierwszy python program
-Python pozwala zarządzać komputerem poprzez wydawanie mu poleceń. Pierwszym poleceniem języka Python, które poznasz, jest polecenie wyświetlenia wyniku: print
+Napiszecie teraz pierwszy program w Pythonie. 
+Utwórz w tym celu nowy plik, nazwij go: witaj.py.
 
-output "Hello Tomek!"
+Python pozwala zarządzać komputerem poprzez wydawanie mu poleceń. 
+Pierwszym poleceniem języka Python, które poznasz, jest polecenie wyświetlenia wyniku: *print*
+
+Wpisz polecenie w jezyku Python tak, aby wyswietlił się spersonalizowany komunikat powitalny. 
+
 
 # III. Zmienne python
 
 1. Zmienne zdefiniowane na zewnątrz funkcji są *zmiennymi globalnymi*, to oznacza, że mogą być używane zarówno wewnątrz jak i na zewnątrz funkcji. 
-2. Natomiast zmienne zdefiniowane wewnątrz funkcji są *zmiennymi lokalnymi* do użycia tylko wewnątrz funkcji.
+2. Natomiast zmienne zdefiniowane wewnątrz funkcji są *zmiennymi lokalnymi* do użycia tylko wewnątrz funkcji (zmienne lokalne omowione zostaną w dalszej części kursu).
 
-## Otwórz odnośnik do maski stosowania komentarzy w Pythonie: 
+## Otwórz odnośnik do lekcji, w której poznasz możliwości stosowania komentarzy i zmiennych w Pythonie: 
 
 Link: https://github.com/HelloTomek/IwB/blob/master/python_raw/komentarze_i_zmienne.py
 
 Nastepnie, deklarujemy zmienne globalne: 
 
 1. Zadeklaruj zmienną n, nadaj pustą wartość / Najbardziej ogólny to none, czyli nic.
-2. Zadeklaruj zmienną b, nadaj wartość typu boolean.
-3. Zadeklaruj zmienną s, nadaj wartość typu string.
-4. Zadeklaruj zmienną i, nadaj wartość typu int.
-5. Zadeklaruj zmienną f, nadaj wartość typu float.
-6. Zadeklaruj zmienną l , nadaj wartość typu lista lub (tupla), czy {słownik}.
-7. Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
-
+2. Zadeklaruj zmienną b, nadaj dowolną wartość typu boolean.
+3. Zadeklaruj zmienną s, nadaj dowolną wartość typu string.
+4. Zadeklaruj zmienną i, nadaj dowolną wartość typu int.
+5. Zadeklaruj zmienną f, nadaj dowolną wartość typu float.
+6. Zadeklaruj zmienne l oraz m, n :
+  a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
+  b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
+ 
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
+
+Usuń zmeinną s.
 
 ---
 
-**W poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”,** 
+**W poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”, czyli przypisane do jednego miejsca w pamięci.** 
+*a = b = c = 2*
 
-**czyli przypisane do jednego miejsca w pamięci a = b = c = 2.**
 
-
- 
-**Również w poniższym przykładzie wiele wartości przypisanych jest do wielu zmiennych**
-
-**a, b, c = 1, 2 ”,Witaj w Pythonie”**
+**Natomiast w przykładzie poniżej, wiele wartości przypisanych jest do wielu zmiennych**
+*a, b, c = 1, 2 ”,Witaj w Pythonie”*
 
 ---
 
@@ -74,8 +81,18 @@ Python rozpoznaje wszystkie cztery podstawowe operatory arytmetyczne: + - * i /
 
 Kolejność wykonywania działań arytmetycznych jest dynamiczna, by ingerować mozemy zastosowac okrągłe nawiasy ().
 
-Oblicz: sum = i + f
+Oblicz: suma = i + f
+Oblicz: odejmowanie = i - f
+Oblicz: div = suma / odejmowanie
+Oblicz: modulo = suma % div
 
-**wypisz wartość sum.**
+Oblicz binarnie: binary = 11011 * 101
+**Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym **
 
-**Wyswietl typ danych wszystkich zmiennych.**
+**Wyświetl rownież wartości: suma, div i modulo .**
+
+suma_blad = 1 + 2,3
+print(suma_blad) # dlaczego? 
+
+
+**Wyswietl typ danych wszystkich dotąd stosowanych zmiennych.**
