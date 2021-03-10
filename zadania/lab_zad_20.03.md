@@ -102,7 +102,7 @@ Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym
 
 **Wyświetl również wartości: dla sredniej, sumy, div i modulo.**
 
-# Zastanwó się:
+# Zastanów się:
 
 - Pojedynczym poleceniem Pythona i bez użycia nawiasów, przemnóż zmienną *suma* przez *suma+2*
 
