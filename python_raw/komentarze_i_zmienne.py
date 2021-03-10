@@ -30,7 +30,7 @@ Przykładowo w IDLE:
 # Drugi przyklad cd -->
 
 ''' 
-Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - uzywajac "pojedynczego cudzysłowu", 
+Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - używając "pojedynczego cudzysłowu", 
 
 natomiast aby dokumentować specyficzny segment kodu który używany jest jak komentarz,
 stosowane są ciągi dokumentacyjne, znane rownież jako docstring, więcej: https://www.python.org/dev/peps/pep-0257/
@@ -58,11 +58,11 @@ print(keyword.kwlist) # Słowa kluczowe Pythona w formie listy, output:
 ## Utarte normy
 
 # W celu poprawienia czytelności, zrozumiałości kodu programu - nadawanie nazw definiowane jest zgodnie z PEP czyli Python Enhancement Proposal, 
-# oficjalnym dokumentem informacyjnym dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
+# oficjalny dokument informacyjny dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
 
 # Co trzeba zrobić, aby poprawnie wyświetlać polskie znaki diakrytyczne?
 
-NieZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Zła praktyka na nazywanie zmeinnej, źle jest np. zmienna ZacyNAćZwielkich_liter.
+NieZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Zła praktyka na nazywanie zmiennej, źle jest np. zmienna ZacyNAćZwielkich_liter.
 nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również dobrze wg. ustalonych norm.
 
 NieZacyNAćZwielkich_liter; nazwazmienna # Wykonujemy dwa polecenia Pythona w jednym wierszu. 
