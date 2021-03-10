@@ -59,9 +59,9 @@ Nastepnie, deklarujemy zmienne globalne:
 5. Zadeklaruj zmienną f, nadaj dowolną wartość typu float.
 6. Zadeklaruj zmienne l oraz m, n:
 
-  a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
+  6 a) Zastosuj wielokrotne przypisywanie wartości (multiple assignment).
   
-  b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
+  6 b) nadaj im dowolne, lecz różnego typu wartości, może to być przykładowo krotka, lista czy słownik.
  
  
 Wyświetl wszystkie wartości korzystając z wcześniej poznanej funkcji print().
@@ -95,15 +95,15 @@ Oblicz: div = suma / odejmowanie
 Oblicz: modulo = suma % div
 
 
-Oblicz binarnie: binary = 11011 * 101
+**Oblicz binarnie**: binary = 11011 * 101
 
 **Wypisz wartości *binary* w systemie dziesiętnym, oraz dwójkowym **
 
-**Wyświetl rownież wartości: suma, div i modulo .**
+**Wyświetl rownież wartości: suma, div i modulo.**
 
 suma_blad = 1 + 2,3;
 
 print(suma_blad) # dlaczego? 
 
 
-**Wyswietl typ danych wszystkich dotąd stosowanych zmiennych.**
+**Wyświetl typ danych wszystkich dotąd stosowanych zmiennych.**
