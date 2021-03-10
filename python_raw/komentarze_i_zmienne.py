@@ -59,12 +59,12 @@ print(keyword.kwlist) # Słowa kluczowe Pythona w formie listy, output:
 # W celu poprawienia czytelności, zrozumiałości kodu programu - nadawanie nazw definiowane jest zgodnie z PEP czyli Python Enhancement Proposal, 
 # oficjalnym dokumentem informacyjnym dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
 
-ZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Źle nazwanną zmeinną jest np. zmienna ZacyNAćZwielkich_liter.
+ZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Błędnie nazwanną zmeinną jest np. zmienna ZacyNAćZwielkich_liter.
 nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również poprawnie.
 
 ZacyNAćZwielkich_liter; nazwazmienna # Wykonujemy dwa polecenia Pythona w jednym wierszu.
 
-## 1. a) Ciągi znaków - https://github.com/HelloTomek/IwB/blob/master/python_raw/strings.py
-## 1. b) Typy liczbowe - https://github.com/HelloTomek/IwB/blob/master/python_raw/numbers.py
+## 1. a) Typy liczbowe - https://github.com/HelloTomek/IwB/blob/master/python_raw/numbers.py 
+## 1. b) Ciągi znaków - https://github.com/HelloTomek/IwB/blob/master/python_raw/strings.py
 ## 1. c) Listy i tablice -  https://github.com/HelloTomek/IwB/blob/master/python_raw/lists.py
 ## 1. d) Zbiory i krotki - https://github.com/HelloTomek/IwB/blob/master/python_raw/tuples_sets.py
