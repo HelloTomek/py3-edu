@@ -1,7 +1,8 @@
 ## 0. Komentarze Python
 
-# W programowaniu komentarze są klarownym wyjaśnieniem w kodzie źródłowym programu. 
-# Komentarze znajdują się w kodzie źródłowym do czytania przez ludzi po to, aby ułatwić zrozumienie kodu źródłowego. Przeważnie są pomijane przez kompilatory i tłumacze. 
+# W programowaniu komentarze są klarownym wyjaśnieniem w kodzie.
+# Komentarze znajdują się w kodzie źródłowym do czytania przez ludzi, 
+# przeważnie są pomijane przez kompilatory i tłumacze, mają ułatwić zrozumienie kodu źródłowego. 
 
 
 # Pierwszy przykład --> 
@@ -21,18 +22,18 @@ Nie jest to optymalny sposób. Poniżej cytat Guido van Rossum, twórca Pythona:
 
 Natomiast aby napisać komentarz w Pythonie pot. "wykomentować skrypt", polecam stosować skróty klawiszowe. 
 Przykładowo w IDLE:
-- Multi-line comment, zaznacz kod który chcesz skomentować i wciśnij pryzciski Alt+4.
-- By odblokować istniejący komentarz, zaznacz kod, i wciśnij pryzciski Alt+3.
+- Multiline comment, zaznacz kod który chcesz skomentować i wciśnij pryzciski Alt+4.
+- By odblokować istniejący komentarz, zaznacz kod i wciśnij pryzciski Alt+3.
 
 """
 
 # Drugi przyklad cd -->
 
 ''' 
-Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - uzywajac pojedynczego cudzysłowu, 
+Spotkamy się także z powyżej stosowaną notacją do wielowierszowych komentarzy - uzywajac "pojedynczego cudzysłowu", 
 
-również może być on używany jako docstring, więcej o docstring:
-https://www.python.org/dev/peps/pep-0257/
+natomiast aby dokumentować specyficzny segment kodu który używany jest jak komentarz,
+stosowane są ciągi dokumentacyjne, znane rownież jako docstring, więcej: https://www.python.org/dev/peps/pep-0257/
 
 '''
 
@@ -59,10 +60,18 @@ print(keyword.kwlist) # Słowa kluczowe Pythona w formie listy, output:
 # W celu poprawienia czytelności, zrozumiałości kodu programu - nadawanie nazw definiowane jest zgodnie z PEP czyli Python Enhancement Proposal, 
 # oficjalnym dokumentem informacyjnym dla społeczności programistów Pythona (URL: https://www.python.org/dev/peps/pep-0008/).
 
-ZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Błędnie nazwanną zmeinną jest np. zmienna ZacyNAćZwielkich_liter.
-nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również poprawnie.
+# Co trzeba zrobić, aby poprawnie wyświetlać polskie znaki diakrytyczne?
 
-ZacyNAćZwielkich_liter; nazwazmienna # Wykonujemy dwa polecenia Pythona w jednym wierszu.
+NieZacyNAćZwielkich_liter = "To jest niepoprawnie nazwana zmienna" # Zła praktyka na nazywanie zmeinnej, źle jest np. zmienna ZacyNAćZwielkich_liter.
+nazwazmienna = "To jest poprawnie nazwana zmienna" # Poprawnie: nazwazmienna, ale i nazwa_zmienna, nazwazmienna1, czy nazwa_zmienna_1 jest również dobrze wg. ustalonych norm.
+
+NieZacyNAćZwielkich_liter; nazwazmienna # Wykonujemy dwa polecenia Pythona w jednym wierszu. 
+
+# Usuwamy zmienną poleceniem: del nazwa_zmiennej, np.: 
+del NieZacyNAćZwielkich_liter
+
+# Exception has occurred: NameError name 'ZacyNAćZwielkich_liter' is not defined
+print(NieZacyNAćZwielkich_liter) 
 
 ## 1. a) Typy liczbowe - https://github.com/HelloTomek/IwB/blob/master/python_raw/numbers.py 
 ## 1. b) Ciągi znaków - https://github.com/HelloTomek/IwB/blob/master/python_raw/strings.py
