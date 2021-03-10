@@ -1,5 +1,5 @@
 # IwB
-Python 3.8 kurs - Programowanie komputerów 
+Python kurs - Programowanie komputerów 
 
 Skrypt, zadania - Laboratoria Python3 
 
