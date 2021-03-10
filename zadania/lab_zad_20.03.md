@@ -210,12 +210,18 @@ Oblicz: modulo = suma % div
 # Zastanów się
 
 a = 1
+
 b = 2,3
+
 suma_blad = 1 + 2,3
+
 print(suma_blad) # Zwróć uwagę na rezultat.
 
+
 suma_blad = a + b
+
 print(suma_blad) # dlaczego otrzymaliśmy błąd, jak naprawić program? 
+
 
 
 **Przeanalizuj program, a następrnie wyświetl typ danych wszystkich dotąd stosowanych zmiennych.**
