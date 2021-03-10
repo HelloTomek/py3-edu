@@ -101,9 +101,11 @@ Oblicz: modulo = suma % div
 
 **Wyświetl rownież wartości: suma, div i modulo.**
 
+# zastanow sie
+
 suma_blad = 1 + 2,3;
 
-print(suma_blad) # dlaczego? 
+print(suma_blad) # dlaczego otrzymaliśmy taki output? 
 
 
 **Wyświetl typ danych wszystkich dotąd stosowanych zmiennych.**
