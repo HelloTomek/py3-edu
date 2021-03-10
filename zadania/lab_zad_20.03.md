@@ -68,10 +68,12 @@ Usuń zmeinną s.
 ---
 
 **W poniższym przykładzie trzy zmienne są przypisane do jednej wartości „2”, czyli przypisane do jednego miejsca w pamięci.** 
+
 *a = b = c = 2*
 
 
 **Natomiast w przykładzie poniżej, wiele wartości przypisanych jest do wielu zmiennych**
+
 *a, b, c = 1, 2 ”,Witaj w Pythonie”*
 
 ---
